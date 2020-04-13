@@ -6,6 +6,7 @@ import styled from 'styled-components';
 import './Main.css';
 import Nav from '../Nav/Nav';
 import Pagination from '../Pagination/Pagination';
+import PokemonList from '../PokemonList/PokemonList';
 
 const StyledLoader = styled.div`
   text-align: center;
@@ -75,6 +76,7 @@ function Main() {
             gotoNextPage={nextPageUrl ? gotoNextPage : null}
             gotoPrevPage={prevPageUrl ? gotoPrevPage : null}
           />
+          <PokemonList pokemonData={pokemonData} />
           <Pagination
             gotoNextPage={nextPageUrl ? gotoNextPage : null}
             gotoPrevPage={prevPageUrl ? gotoPrevPage : null}

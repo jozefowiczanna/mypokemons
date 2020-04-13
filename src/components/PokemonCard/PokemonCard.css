@@ -1,0 +1,9 @@
+#pcard {
+  background: white;
+  transition: 0.15s all;
+}
+
+#pcard.active {
+  background: #FFE090;
+  border: 1px solid #ffc107;
+}
