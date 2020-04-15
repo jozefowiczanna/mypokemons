@@ -6,7 +6,7 @@ export default function Nav() {
   return (
     <Navbar fixed="top" bg="light" expand="">
       <Container>
-        <Navbar.Brand href="#home">My Pokedex</Navbar.Brand>
+        <Navbar.Brand href="index.html">My Pokedex</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <NavForm />

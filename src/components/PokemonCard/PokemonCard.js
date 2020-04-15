@@ -64,8 +64,6 @@ const PokemonCard = ({activeFilter, filterValues, pokemon}) => {
   )
 }
 
-// const mapStateToProps = ({heavy}) => ({filterHeavy});
-
 const mapStateToProps = state => {
   return {
     activeFilter: state.activeFilter,
