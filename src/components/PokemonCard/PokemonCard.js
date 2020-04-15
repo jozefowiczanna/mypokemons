@@ -31,8 +31,6 @@ const PokemonCard = ({activeFilter, filterValues, pokemon}) => {
   let name = pokemon['name'].toLowerCase().split(' ').map(letter => letter.charAt(0).toUpperCase() + letter.substring(1)).join();
   let { stats } = pokemon;
 
-  console.log(filterValues[activeFilter]);
-
   const getAllTypes = () => {
     let typesList = [];
     for(let i=0; i<pokemon.types.length; i++) {

@@ -4,7 +4,7 @@ import NavForm from '../NavForm/NavForm';
 
 export default function Nav() {
   return (
-    <Navbar fixed="top" bg="light" expand="sm">
+    <Navbar fixed="top" bg="light" expand="">
       <Container>
         <Navbar.Brand href="#home">My Pokedex</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
